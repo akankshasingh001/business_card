@@ -11,6 +11,21 @@ const App = () => {
         userName={faker.name.firstName()}
         company={faker.company.companyName()}
         info={faker.address.streetAddress()}
+        email={faker.internet.email()}
+      />
+      <CommentDetails
+        img={faker.image.image()}
+        userName={faker.name.firstName()}
+        company={faker.company.companyName()}
+        info={faker.address.streetAddress()}
+        email={faker.internet.email()}
+      />
+      <CommentDetails
+        img={faker.image.image()}
+        userName={faker.name.firstName()}
+        company={faker.company.companyName()}
+        info={faker.address.streetAddress()}
+        email={faker.internet.email()}
       />
     </div>
   );

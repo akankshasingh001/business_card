@@ -16,10 +16,9 @@ const CommentDetails = props => {
             <div className="description">{props.info}</div>
           </div>
           <div className="extra content">
-            <span className="right floated">Joined in 2013</span>
             <span>
               <i className="user icon"></i>
-              75 Friends
+              {props.email}
             </span>
           </div>
         </div>
